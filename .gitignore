@@ -1,0 +1,28 @@
+# Secret Keys & Environment Variables (NEVER UPLOAD)
+.env
+*.env
+
+# Python Virtual Environment
+env/
+venv/
+.venv/
+ENV/
+
+# Python Cache & Compiled Files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Streamlit Secrets & Local Cache
+.streamlit/secrets.toml
+
+# Local Generated PDFs & Vector DB Files
+*.pdf
+*.db
+*.sqlite3
+chroma_db/
+
+# System / OS Files
+.DS_Store
+Thumbs.db
