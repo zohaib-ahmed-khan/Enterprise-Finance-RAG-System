@@ -26,6 +26,12 @@ CORE SYSTEM CAPABILITIES & PRODUCTION FEATURES:
 5. FUTURISTIC GLASSMORPHIC SCIFI UI & CONTROL INTERFACE:
    - Custom CSS mesh-gradient background, 3D interactive metric cards, and continuous neon aura borders.
    - Model creativity (temperature) fine-tuning and complete knowledge-base reset safeguards.
+
+In finance and invoicing, real-time accuracy and zero hallucination are critical requirements.
+Fine-tuning an LLM would make the system static, prone to factual hallucinations, and require expensive, repetitive retraining every time a new document or policy is added.
+To solve this, we implemented a Hybrid RAG Architecture combining Sparse Lexical Search (BM25) with Dense Semantic Embeddings (ChromaDB Vector DB).
+This ensures 100% dynamic, verifiable, and source-attributed retrieval directly from live corporate documents.
+
 ====================================================================================================
 """
 
